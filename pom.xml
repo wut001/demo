@@ -28,6 +28,7 @@
         <!-- <webXml>WebContent\WEB-INF\web.xml</webXml> -->
         </configuration> 
        </plugin>
+	    
     </plugins>
   </build>
   <dependencies>
