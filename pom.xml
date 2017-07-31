@@ -29,10 +29,11 @@
         </configuration> 
        </plugin>
 	
-	              <plugin>
-                                   <groupId>org.codehaus.mojo</groupId>
-                                   <artifactId>findbugs-maven-plugin</artifactId>
-                                   <version>3.0.1</version>
+	    <plugin>
+                                    <groupId>org.codehaus.mojo</groupId>
+                                    <artifactId>findbugs-maven-plugin</artifactId>
+                                    <version>1.2</version>
+                                     
                                    <configuration>
                                    <threshold>High</threshold>
                                    <effort>Default</effort>
@@ -52,7 +53,7 @@
                       <plugin>
                       <groupId>org.codehaus.mojo</groupId>
                       <artifactId>findbugs-maven-plugin</artifactId>
-                      <version>3.0.1</version>
+                      <version>1.2</version>
                       <configuration>
                       <xmlOutput>true</xmlOutput>
                       <!-- Optional directoryto put findbugs xdoc xml report -->
