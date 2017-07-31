@@ -32,7 +32,7 @@
 	    <plugin>
                                     <groupId>org.codehaus.mojo</groupId>
                                     <artifactId>findbugs-maven-plugin</artifactId>
-                                    <version>1.2</version>
+                                    <version>4.70</version>
                                      
                                    <configuration>
                                    <threshold>High</threshold>
@@ -53,7 +53,7 @@
                       <plugin>
                       <groupId>org.codehaus.mojo</groupId>
                       <artifactId>findbugs-maven-plugin</artifactId>
-                      <version>1.2</version>
+                      <version>4.70</version>
                       <configuration>
                       <xmlOutput>true</xmlOutput>
                       <!-- Optional directoryto put findbugs xdoc xml report -->
